@@ -1,5 +1,7 @@
-<img src="img/SmartwatchLogo.png" alt="System FSM" width="128" style="position:relative;left:50%;translate:-50% 0">
-<h1 style="text-align:center">Embedded Smartwatch project</h1>
+<div align="center">
+  <img src="img/SmartwatchLogo.png" alt="System FSM" width="128">
+  <h1>Embedded Smartwatch Project</h1>
+</div>
 
 This repository contains the project for the "Embedded software for the Internet of Things" course @Unitrento, year 2024/25. Group members: Pedrolli Daniele, Scarano Davide, Valentini Cristian.  
 Our team designed and implemented a smartwatch prototype, using the MSP432P401R LaunchPad and EDUMKII BoosterPack. The original idea was to design and implement a step-counter and clock, which then become an (almost) fully-featured smart watch.
