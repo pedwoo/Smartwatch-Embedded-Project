@@ -80,18 +80,25 @@ The two following graphs present the FSMs used in the device, the symbols used r
 -   **U, D, L, R**: Up, Down, Left, Right directions of the joystick analog stick
 -   **1, 2**: Buttons S1 and S2 respectively
 
-<img src="img/SystemStateMachine.png" alt="System FSM" width="700">
+<div align="center">
+    <img src="img/SystemStateMachine.png" alt="System FSM" width="700">
+</div>
 
 Fig. 1: Device FSM.  
 Note that the timer state doesn't have the possibility to go back to sleep, because the button `S1` was required for another functionality.
 
-<img src="img/TimerStateMachine.png" alt="Timer FSM" width="700">
+<div align="center">
+    <img src="img/TimerStateMachine.png" alt="Timer FSM" width="700">
+</div>
 
 Fig.2: Timer FSM, separate for improved modularization (and because it was developed separately).
 
 The `END` state is only intended to be used to print on the LCD "time is up", so the system will automatically go back to the init state after a delay. In the Init state, `S1` is used to switch between minutes and seconds when setting the timer amount. `Up` and `Down` are then used to increase or decrease the values.
 
 ## Demo video and presentation
+
+-   [Presentation link](https://docs.google.com/presentation/d/1fNAfrrSglLz6gf4gumKAArx6vjHPRAk1ox0Vfdy4gaU/edit?usp=sharing). If not working [Alternative presentation link](./demo-presentation/Embedded-smartwatch-presentation.pdf)
+-   [Demo link](https://drive.google.com/file/d/12CQOXAimFkucN7fKvYsNCL8-yhUtu1fL/view?usp=sharing). If not working [Alternative demo link](./demo-presentation/Embedded-smartwatch-demo-compressed.mp4)
 
 ## Individual contribution
 
